@@ -334,6 +334,13 @@ span:hover {
     
 }
 
+#image3 {
+    height: 341px;
+    width: 372px;
+    position: relative;
+    top: -20px;
+}
+
 #cover {
     text-align: center;
     padding: 20px;

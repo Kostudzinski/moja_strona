@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -13,10 +13,10 @@
     <div id="fixed">
         <nav>
             <ul>
-                <li><a href="#omnie">O mnie</a></li>
-                <li><a href="#umiejetnosci">Umiejętoności</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a class="omnie" href="#omnie">O mnie</a></li>
+                <li><a class="umiejetnosci" href="#umiejetnosci">Umiejętoności</a></li>
+                <li><a class="portfolio" href="#portfolio">Portfolio</a></li>
+                <li><a class="kontakt" href="#kontakt">Kontakt</a></li>
             </ul>
         </nav>
     </div>
@@ -42,7 +42,7 @@
     <section id="omnie">
 
         <header id="container">
-            <p id="header">O<span id="devespan"> MNIE</span></p><br><br>
+            <p id="header">O<span class="omniehead" id="devespan"> MNIE</span></p><br><br>
         </header><br>
 
         <div id="big">
@@ -75,7 +75,7 @@
     <section id="umiejetnosci">
 
         <header id="container">
-            <p id="header">Moje<span id="devespan"> UMIEJĘTNOŚCI</span></p><br><br>
+            <p class="umiejetnoscihead" id="header">Moje<span id="devespan" class="skills"> UMIEJĘTNOŚCI</span></p><br><br>
         </header><br>
 
         <div id="bigu">
@@ -108,15 +108,15 @@
 
         <div id="contain">
             <div id="icon1">
-                <img src="grafiki/icons/ps.png" alt="css"><br><br>
+                <img src="grafiki/icons/ps.png" alt="photoshop"><br><br>
                 <p><a target="_blank" class="neon" href="https://www.adobe.com/pl/products/photoshop.html?mv=search&skwcid=AL!3085!3!190597719290!e!!g!!photoshop%20cs6&s_kwcid=AL!3085!3!190597719290!e!!g!!photoshop%20cs6&ef_id=WCtZpAAAAaQYO3PA:20170602121519:s">Photoshop</a></p>
             </div>
             <div id="icon1">
-                <img src="grafiki/icons/ill.png" alt="html"><br><br>
+                <img src="grafiki/icons/ill.png" alt="illustrator"><br><br>
                 <p><a target="_blank" class="neon" href="http://www.adobe.com/pl/products/illustrator.html?sdid=JRSIX&skwcid=AL!3085!3!52638610554!b!!g!!adobe%20illustrator%20cs5&s_kwcid=AL!3085!3!52638610554!b!!g!!adobe%20illustrator%20cs5&ef_id=WCtZpAAAAaQYO3PA:20170602121551:s">Illustrator</a></p>
             </div>
             <div id="icon1">
-                <img src="grafiki/icons/in.png" alt="js"><br><br>
+                <img src="grafiki/icons/in.png" alt="indesign"><br><br>
                 <p><a target="_blank" class="neon" href="http://www.adobe.com/pl/products/indesign.html">InDesign</a></p>
             </div>
         </div>
@@ -129,7 +129,7 @@
 
     <section id="portfolio">
         <header id="container">
-            <p id="header">Moje<span id="devespan"> PORTFOLIO</span></p><br><br>
+            <p class="portfoliohead" id="header">Moje<span id="devespan" class="my-portfolio"> PORTFOLIO</span></p><br><br>
         </header><br>
         
         <div id="kontener">
@@ -172,7 +172,7 @@
     
     <footer id="kontakt">
         <header id="container">
-            <p id="header"><span id="devespan">KONTAKT</span></p><br><br>
+            <p class="kontakthead" id="header"><span id="devespan" class="my-contact">KONTAKT</span></p><br><br>
         </header><br><br>
         
         <div id="footerback">
@@ -207,6 +207,11 @@
         </div>
     </footer><br>
     <div id="copyright">Copyright © Konrad Studzinski</div>
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <script src="js/main.js"></script>
+    
 
 </body>
 

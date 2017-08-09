@@ -50,6 +50,13 @@ a:hover {
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
+.neon-light {
+   color: #ffffff;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
 
 span:hover {
   color: #ffffff;
